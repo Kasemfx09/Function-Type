@@ -1,13 +1,13 @@
 
 // Function declaration
 
-// function ageCal(name, age){
-//      let currentDate=new Date();
-//      let currentYear =currentDate.getFullYear();
-//      let myAge =`Hi ${name} your age is ${currentYear - age}`;
-//      console.log(myAge);
-// }
-// ageCal('Mona', 2000);
+function ageCal(name, age){
+     let currentDate=new Date();
+     let currentYear =currentDate.getFullYear();
+     let myAge =`Hi ${name} your age is ${currentYear - age}`;
+     console.log(myAge);
+}
+ageCal('Mona', 2000);
 
 // Function Expresion
 
