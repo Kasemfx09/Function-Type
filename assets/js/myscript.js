@@ -1,23 +1,23 @@
 
 // Function declaration
 
-function ageCal(name, age){
+function ageCale(name, age){
      let currentDate=new Date();
      let currentYear =currentDate.getFullYear();
      let myAge =`Hi ${name} your age is ${currentYear - age}`;
      console.log(myAge);
 }
-ageCal('Mona', 2000);
+ageCale('Mona', 2000);
 
 // Function Expresion
 
-// const ageCal = function(name, age){
-//      let currentDate=new Date();
-//      let currentYear =currentDate.getFullYear();
-//      let myAge =`Hi ${name} your age is ${currentYear - age}`;
-//      console.log(myAge);
-// }
-// ageCal('Mona', 2000);
+const ageCalculator = function(name, age){
+     let currentDate=new Date();
+     let currentYear =currentDate.getFullYear();
+     let myAge =`Hi ${name} your age is ${currentYear - age}`;
+     console.log(myAge);
+}
+ageCalculator('Labib', 2014);
 
 // Arrow Function 
 const ageCal = (name, age)=>{
@@ -26,4 +26,4 @@ const ageCal = (name, age)=>{
      let myAge =`Hi ${name} your age is ${currentYear - age}`;
      console.log(myAge);
 }
-ageCal('Mona', 2000);
+ageCal('Manik', 1984);
